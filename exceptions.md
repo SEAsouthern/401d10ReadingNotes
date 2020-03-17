@@ -1,0 +1,3 @@
+Exception Handling
+
+An analogy that jumped out to me reading the Ariane 5 launch failure was the demise of the Mars Climate Orbiter. Both were caused by conversion failures in the software and would have been caught with more extensive testing. In the case of the Mars Climate Orbiter it was a conversaion failure from English to Metric not floating point to signed integer. NASA engineers had specified to the contractor, Lockheed Martin, that the output be in metric but that was missed by the engineers at Lockheed. The other systems were expecting metric so the altitude thrusters sent the spacecraft into the upper Martian atmosphere where it was destroyed. Like the Ariane 5, proper testing or even just reading over the code would have caught this error.   
